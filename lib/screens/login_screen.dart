@@ -9,8 +9,8 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login'),
-        backgroundColor: Colors.transparent,
+        title: const Text('Login', style: TextStyle(fontSize: 20, fontStyle: FontStyle.italic),),
+        backgroundColor: Colors.blueGrey,
         elevation: 0,
       ),
       body: Padding(
@@ -21,7 +21,7 @@ class LoginScreen extends StatelessWidget {
           children: [
             const Text(
               'Welcome Back!',
-              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold, color: Colors.black87),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 40),
